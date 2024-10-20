@@ -103,7 +103,7 @@ const int s4Length = 2869;
 //int sampleLength[] = {931,1780,463,8011,2869};
  
 //Timer
-prog_char* sampleOffset;
+const char* sampleOffset; 
 int sampleCounter = 0;
 int sampleLength = 0;
 int timerTicks = 0;
